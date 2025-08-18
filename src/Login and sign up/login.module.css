@@ -1,0 +1,93 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.formContainer {
+  background: url(./OQCI430.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form{
+  color: black;
+  border-radius: 10px;
+  background-color: rgba(77, 77, 223, 0.658);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form h1{
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 10px   ;
+}
+.form input[type="email"], input[type="password"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: black;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  border-top: transparent;
+  background: white;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+label{
+    display: flex;
+}
+label span {
+    flex: 1
+}
+.form .submit {
+  color: rgba(0, 0, 0, 0.479);
+  margin-top: 20px;
+  align-self: center;
+  background-size: 200% 200%;
+  width: 200px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-style: none;
+  background: linear-gradient(90deg, #f7704fe1, rgba(58, 58, 223, 0.192));
+  transition: background-position 0.3s ease-in, transform 0.3s ease;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form .submit:hover {
+  
+  color: rgba(0, 0, 0, 0.377);
+  transform: translateY(-5px);
+  background-position: right center;
+  cursor: pointer;
+}
+.formContainer .profpic{
+  align-self: center;
+  background-image: url(./assets/profpic.jpeg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 150px; 
+  width: 150px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+p a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(3, 8, 90);;
+    transition: all 0.3s ease;
+}
+p a:hover {
+    color: rgb(11, 21, 202);
+    transform: translateY(-5px);
+}

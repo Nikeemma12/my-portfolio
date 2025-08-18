@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(18, 127, 216);
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/back.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 670px;
+    width: 597px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: white;
+    opacity: 0.9;
+    font-size: 18px;
+}
+.form{
+    background-color: white;
+    opacity: 0.5;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+label {
+    display: flex;
+    flex-direction: row;
+}
+label span {
+    flex: 1;
+}
+.form input[type="email"], input[type="password"], input[type="text"], input[type="number"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  border-top: transparent;
+  background: black;
+  padding: 5px;
+  margin-bottom: 33px;
+  margin-left: 20px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form .submit {
+  color: rgba(0, 0, 0, 0.479);
+  margin-top: 20px;
+  align-self: center;
+  background-size: 200% 200%;
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-style: none;
+  background: linear-gradient(90deg, #2a74d4e1, rgba(58, 58, 223, 0.192));
+  transition: background-position 0.3s ease-in, transform 0.3s ease;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form .submit:hover {
+  
+  color: rgb(0, 0, 0);
+  transform: translateY(-8px);
+  background-position: right center;
+  cursor: pointer;
+}
+.signIn {
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-self: center;
+    gap: 15px;
+}
+.signIn a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(3, 8, 90);
+    font-size: bold;
+    transition: all 0.3s ease;
+}
+.signIn a:hover {
+    color: rgb(11, 21, 202);
+    transform: translateY(-5px);
+}
