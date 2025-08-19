@@ -688,4 +688,12 @@ input[type="text"] {
     margin-top: 250px;
     margin-bottom: 150vh;
   }
+  .Contact {
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid white;
+  }
+  .Subsribe {
+    border-left: 1px solid transparent;
+    border-top: 1px solid white;
+  }
 }
