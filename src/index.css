@@ -1,5 +1,5 @@
 :root{
-    --bg: hsl(235 100% 6%);
+    --bg: hsl(235 100% 10%);
     --footer: hsl(240 100% 4%);
     --text: hsl(205 100% 95%);
     --text-muted: hsl(204 74% 69%);
@@ -15,11 +15,19 @@
     --info: hsl(217 100% 70%);
 }
 .light-mode{
-    --bg: hsl(209 100% 8%);
-    --text: hsl(205 100% 95%);
-    --icons: hsl(215 100% 44%);
-    --primary: hsl(215 100% 44%);
-    --text-muted: hsl(215 100% 44%);
+    --bg: hsl(217 100% 100%);
+    --footer: hsl(240 100% 96%);
+    --text: hsl(260 100% 13%);
+    --text-muted: hsl(217 100% 30%);
+    --highlight: hsl(217 100% 100%);
+    --border: hsl(217 91% 57%);
+    --border-muted: hsl(217 100% 70%);
+    --primary: hsl(217 100% 30%);
+    --secondary: hsl(33 100% 14%);
+    --danger: hsl(4 99% 37%);
+    --warning: hsl(50 100% 12%);
+    --success: hsl(159 100% 9%);
+    --info: hsl(215 95% 42%);
 }
 * {
     margin: 0; 
