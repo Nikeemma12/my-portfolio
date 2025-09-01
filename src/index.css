@@ -15,7 +15,7 @@
     --info: hsl(217 100% 70%);
 }
 .light-mode{
-    --bg: hsl(217 100% 100%);
+    --bg: hsl(217 100% 95%);
     --footer: hsl(240 100% 96%);
     --text: hsl(260 100% 13%);
     --text-muted: hsl(217 100% 30%);
