@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { FaHtml5, FaReact, FaCss3, FaJs } from "react-icons/fa";
+import { FaHtml5, FaReact, FaCss3, FaJs, FaJava } from "react-icons/fa";
 function Skills() {
   return (
     <div className="skills">
@@ -28,6 +28,12 @@ function Skills() {
           name="Javascript"
           color="hsl(53, 93%, 32%)"
           about="I am comfortable with ES6+ features like arrow functions, template literals, and modules.I can fetch data from APIs and handle asynchronous operations with promises and async/await.I apply JavaScript to build dynamic user interfaces and improve website functionality."
+        />
+        <Card
+          Icon={FaJava}
+          name="Java"
+          color="hsl(197, 100%, 29%)"
+          about="Just started learning already building advance projects"
         />
       </div>
     </div>
